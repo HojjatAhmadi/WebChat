@@ -1,0 +1,139 @@
+.bouble{
+    width: 5px;
+    height: 5px;
+    background-color: #fe7080;
+    border-radius: 100%;
+}
+
+input{
+    outline: none;
+}
+
+input.danger{
+    background-color: #fe7080!important;
+    border-color: red !important;
+}
+
+.chat{
+    transition: 500ms !important;
+}
+
+.chat:hover{
+    width: 105% !important;
+    box-shadow: 0 0 10px #dadada;
+}
+
+.chat.active{
+    background-color: #2680eb;
+    width: 105% !important;
+}
+
+main{
+    width: calc(100% - 20rem);
+}
+
+.chat.active div , .chat.active p , .chat.active span{
+    color:white;
+}
+
+.inf-acc{
+    transition: 500ms;
+}
+
+.inf-acc:hover{
+    background-color: #98b7d9;
+}
+
+.inf-acc svg{
+    transition: fill 500ms;
+}
+
+.inf-acc:hover svg{
+    fill: #2680eb;
+}
+
+modal{
+    display: none;
+}
+
+modal.active{
+    display: flex;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.384);
+    backdrop-filter: blur(10px);
+}
+
+button{
+    transition: all 500ms ;
+}
+
+button svg{
+    transition: fill 500ms;
+}
+
+.sendBtn:hover{
+    background-color: transparent !important;
+}
+
+button:hover svg{
+    fill:#2680eb;
+}
+
+.camera{
+    background-color: rgba(0, 0, 0, 0.616);
+    bottom: -100%;
+    transition: 500ms;
+}
+
+.profile:hover .camera{
+    bottom: 0;
+}
+
+textarea{
+    outline: none;
+    /* background-color: #e9e9e9; */
+}
+
+.changeUserInfo{
+    cursor: pointer;
+    transition: background-color 500ms;
+}
+
+.changeUserInfo:hover{
+    background-color: #dadada;
+}
+
+.ModalButton:hover{
+    background-color: #267feb71;
+}
+
+.reply{
+    width: 30px;
+    height: 30px;
+    background-color: #2680eb;
+    right: -50px;
+    opacity: 0;
+}
+
+.reply:hover svg{
+    fill:white;
+}
+
+.chatbox:hover .reply{
+    opacity: 1;
+}
+
+.replyMessage{
+    background-color: #267feb3d;
+}
+
+.textChatReply{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.034);
+}
+
+.textChatReply2{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.253);
+}
